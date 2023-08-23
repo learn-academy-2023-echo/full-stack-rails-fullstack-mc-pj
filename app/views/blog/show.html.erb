@@ -2,6 +2,7 @@
 
 <p>Content: <%= @blog.content %></p>
 <br />
+<p><%= link_to 'Edit', edit_blog_path(@blog) %></p>
 <p><%= button_to 'Delete', blog_path(@blog), method: :delete %> </p>
 
 <p>Back to <%= link_to 'Blog List', blogs_path %></p>
