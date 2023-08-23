@@ -1,0 +1,7 @@
+<h3><%= @blog.title %></h3>
+
+<p>Content: <%= @blog.content %></p>
+<br />
+<p><%= button_to 'Delete', blog_path(@blog), method: :delete %> </p>
+
+<p>Back to <%= link_to 'Blog List', blogs_path %></p>
