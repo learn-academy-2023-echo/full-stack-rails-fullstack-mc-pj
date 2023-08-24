@@ -13,6 +13,21 @@
  *= require_tree .
  *= require_self
  */
-body {
-    background-color: aqua;
+
+ body {
+    background-color: rgb(37, 13, 7);
+    font-family: fantasy;
+    color:rgb(238, 227, 229);
+    text-align: center;
+    /* background-image: url("https://wallpapercave.com/wp/wp9801305.jpg");
+    /* background-repeat: no-repeat; */
+    /* background-size:cover; */ 
+}
+
+#list {
+    list-style: none;
+}
+
+.line {
+    color: beige;
 }
