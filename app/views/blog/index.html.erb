@@ -1,6 +1,6 @@
 <h1>Blog Post</h1>
-
-<ul>
+<img id="myimage" src="https://w0.peakpx.com/wallpaper/591/880/HD-wallpaper-ryomen-sukuna-jujutsu-kaisen-thumbnail.jpg" alt="JJK"></img>
+<ul id= "list"
   <% @blogs.each do |blog| %>
     <li><%= link_to blog.title, blog_path(blog) %></li>
     <% end %>
